@@ -1,21 +1,35 @@
 *{
-    font-family: sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 header {
-    background: lightslategrey;
-    width: 80%;
-    margin: 0 auto;
+    background: black;
 }
 header::after {
 content: " ";
 display: table;
 clear: both;
 }
+
+.container  {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
 h1 {
     float: left;
-    font-size: 25px;
-    margin: 30px 5px;
+    font-size: 50px;
+    background-color: lightslategray;
+    color: whitesmoke;
+    width: 200px;
+    height: 50px;
+    padding: 10px 10px 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+
 }
 nav {
     float: right;
@@ -28,30 +42,61 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin: 30px 5px;
+    padding: 20px 10px 10px;
+    background-color: lightslategray;
 }
 nav li a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
+    width: 200px;
+    padding: 20px 10px 20px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.main {
+.container1 {
+    position: relative;
     width: 80%;
     margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-bottom: solid black;
+}
+
+#myimage {
+    float: left;
+    width: 350px;
+    border: solid black;
+    margin: 6px 20px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Paragraph {
+    font-size: 20px;
+    line-height: 2;
+
+}
 
 footer {
     position: fixed;
-    bottom: 5%;
-    left: 10%;
-    right: 10%;
     background: lightslategrey;
-    margin: 0;
-    padding: 0;
+    border-top: solid black;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
 }
 
 h6 {
     text-align: center;
+    height: 30px;
+    margin: 5px;
 }

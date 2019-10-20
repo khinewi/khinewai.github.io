@@ -1,0 +1,76 @@
+*{
+    font-family: 'Amatic SC', cursive;
+}
+
+header {
+    background: black;
+    width: 100%;
+}
+header::after {
+content: " ";
+display: table;
+clear: both;
+}
+
+.container  {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    float: left;
+    font-size: 50px;
+    background-color: lightslategray;
+    color: whitesmoke;
+    width: 200px;
+    height: 50px;
+    padding: 10px 10px 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+nav {
+    float: right;
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 20px 10px 10px;
+    background-color: lightslategray;
+}
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    padding: 20px 10px 20px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    position: fixed;
+    background: lightslategrey;
+    border-top: solid black;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+}
+
+h6 {
+    text-align: center;
+    height: 30px;
+    margin: 5px;
+}
